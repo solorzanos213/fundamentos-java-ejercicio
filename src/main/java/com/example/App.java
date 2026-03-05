@@ -1,18 +1,29 @@
 package com.example;
 
 public class App {
+
     public static void main(String[] args) {
 
-        System.out.println("Ejemplos de lógica en Java");
+        System.out.println("=== Ejemplos de lógica en Java ===");
 
+        // Fundamentos de lógica
         FundamentosLogica.ejemploVariables();
         FundamentosLogica.ejemploCondicional();
         FundamentosLogica.ejemploCiclo();
 
-        System.out.println("\nEjemplos de operadores");
+        System.out.println("\n=== Ejemplos de operadores ===");
 
+        // Operadores
         Operadores.operadoresAritmeticos();
         Operadores.operadoresRelacionales();
         Operadores.operadoresLogicos();
+
+        System.out.println("\n=== Ejemplos de condicionales ===");
+
+        // Condicionales
+        Condicionales.ejemploIf();
+        Condicionales.ejemploIfElseIf();
+        Condicionales.ejemploSwitch();
+
     }
 }
