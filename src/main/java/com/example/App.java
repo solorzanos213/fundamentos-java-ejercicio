@@ -25,5 +25,11 @@ public class App {
         Condicionales.ejemploIfElseIf();
         Condicionales.ejemploSwitch();
 
+        System.out.println("\n=== Ejemplos de ciclos ===");
+
+        Ciclos.ejemploFor();
+        Ciclos.ejemploWhile();
+        Ciclos.ejemploDoWhile();
+
     }
 }
