@@ -31,5 +31,14 @@ public class App {
         Ciclos.ejemploWhile();
         Ciclos.ejemploDoWhile();
 
+        System.out.println("\n=== Ejemplos de métodos ===");
+
+        Metodos.saludar();
+        Metodos.mostrarSuma();
+
+        System.out.println("\n=== Ejemplo de arreglos ===");
+
+        Arreglos.ejemploArreglo();
+
     }
 }
