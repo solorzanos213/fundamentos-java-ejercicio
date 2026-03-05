@@ -4,9 +4,9 @@ public class App {
 
     public static void main(String[] args) {
 
-        System.out.println("Proyecto de Fundamentos de Lógica en Java");
+        System.out.println("=== PROYECTO FUNDAMENTOS DE LOGICA EN JAVA ===");
 
-        System.out.println("\n=== VARIABLES Y CONSTANTES ===");
+        System.out.println("\n--- Variables y Constantes ---");
         VariablesYConstantes.demostrarDeclaracionAsignacion();
         VariablesYConstantes.demostrarConstantes();
 
