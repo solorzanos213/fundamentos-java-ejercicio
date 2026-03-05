@@ -9,5 +9,10 @@ public class App {
         FundamentosLogica.ejemploCondicional();
         FundamentosLogica.ejemploCiclo();
 
+        System.out.println("\nEjemplos de operadores");
+
+        Operadores.operadoresAritmeticos();
+        Operadores.operadoresRelacionales();
+        Operadores.operadoresLogicos();
     }
 }
