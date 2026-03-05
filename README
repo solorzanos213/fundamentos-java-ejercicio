@@ -1,0 +1,31 @@
+# Proyecto Java - App de Ejemplo
+
+## Descripción
+Este proyecto es una aplicación básica desarrollada en Java. 
+Su objetivo es mostrar la estructura de un proyecto sencillo utilizando paquetes y clases en Java.
+
+## Estructura del proyecto
+El proyecto está organizado de la siguiente forma:
+
+src/
+ └── main/
+      └── java/
+           └── com/
+                └── example/
+                     └── App.java
+
+La clase principal es **App.java**, que contiene el método `main` donde inicia la ejecución del programa.
+
+## Cómo ejecutar el proyecto
+1. Clonar el repositorio desde GitHub.
+2. Abrir el proyecto en Visual Studio Code.
+3. Ejecutar el archivo **App.java**.
+
+## Tecnologías utilizadas
+- Java
+- Visual Studio Code
+- Git
+- GitHub
+
+## Autor
+Proyecto realizado por estudiante en formación de programación.
