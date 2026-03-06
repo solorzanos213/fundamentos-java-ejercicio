@@ -4,41 +4,40 @@ public class App {
 
     public static void main(String[] args) {
 
-        System.out.println("=== Ejemplos de lógica en Java ===");
+        System.out.println("=== FUNDAMENTOS DE JAVA ===");
 
-        // Fundamentos de lógica
-        FundamentosLogica.ejemploVariables();
-        FundamentosLogica.ejemploCondicional();
-        FundamentosLogica.ejemploCiclo();
+        System.out.println("\nTipos de datos primitivos:");
+        TiposDeDatosPrimitivos.demostrarTipos();
 
-        System.out.println("\n=== Ejemplos de operadores ===");
+        System.out.println("\nConversión de tipos:");
+        ConversionDeTipos.demostrarConversion();
 
-        // Operadores
-        Operadores.operadoresAritmeticos();
-        Operadores.operadoresRelacionales();
-        Operadores.operadoresLogicos();
+        System.out.println("\nVariables y constantes:");
+        VariablesYConstantes.demostrarDeclaracionAsignacion();
 
-        System.out.println("\n=== Ejemplos de condicionales ===");
+        System.out.println("\nOperadores:");
+        Operadores.demostrarOperadores();
 
-        // Condicionales
-        Condicionales.ejemploIf();
-        Condicionales.ejemploIfElseIf();
-        Condicionales.ejemploSwitch();
+        System.out.println("\nEntrada de datos:");
+        EntradaDeDatos.demostrarEntrada();
 
-        System.out.println("\n=== Ejemplos de ciclos ===");
+        System.out.println("\nEstructuras condicionales:");
+        EstructurasCondicionales.demostrarCondicional();
 
-        Ciclos.ejemploFor();
-        Ciclos.ejemploWhile();
-        Ciclos.ejemploDoWhile();
+        System.out.println("\nEstructuras de repetición:");
+        EstructurasDeRepeticion.demostrarCiclo();
 
-        System.out.println("\n=== Ejemplos de métodos ===");
+        System.out.println("\nMétodos estáticos:");
+        MetodosEstaticosSimples.saludar();
+        System.out.println("Suma: " + MetodosEstaticosSimples.sumar(5, 3));
 
-        Metodos.saludar();
-        Metodos.mostrarSuma();
+        System.out.println("\nArreglos unidimensionales:");
+        ArreglosUnidimensionales.demostrarArreglo();
 
-        System.out.println("\n=== Ejemplo de arreglos ===");
+        System.out.println("\nArreglos bidimensionales:");
+        ArreglosBidimensionales.demostrarMatriz();
 
-        Arreglos.ejemploArreglo();
-
+        System.out.println("\nManipulación de cadenas:");
+        ManipulacionCadenas.demostrarCadenas();
     }
 }
